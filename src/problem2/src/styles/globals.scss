@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@layer components {
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .transition-sm {
+    transition: all 0.2s ease;
+  }
+  .transition-md {
+    transition: all 0.3s ease;
+  }
+  .transition-lg {
+    transition: all 0.4s ease;
+  }
+  .transition-xl {
+    transition: all 0.5s ease;
+  }
+  .abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .border {
+    border-width: 1px;
+    border-style: solid;
+  }
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1550px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+
+
